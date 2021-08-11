@@ -1,0 +1,19 @@
+body{
+  height:97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div{
+  height: 50vh;
+  width: 50vh;
+  border-radius: 50%;
+  background-image: 
+  radial-gradient(circle 400px at 0 0, 
+  rgba(0,0,0,0), 
+  rgba(0,0,0,0), 
+  rgba(0,0,0,.8)), 
+  radial-gradient(circle 180px at 90px 80px, 
+  rgba(255,255,255,.7), 
+  rgba(0,0,0,0));
+}
