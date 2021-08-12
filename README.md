@@ -7,5 +7,5 @@ Designing a colorful Rainbow kind Sphere in mostly HTML, CSS & JS with some libr
 Integrate my below projects into this one.
 - [Loader](https://github.com/n-ce/Loader)
 - [DarkMode](https://github.com/n-ce/DarkMode)
-- [RGBODY](https://github.com/n-ce/RGBODY)
-- [RandomNumberGenerator](https://github.com/n-ce/RandomNumberGenerator)
+- [RGBODY](https://github.com/n-ce/RGBODY) ✅
+- [RandomNumberGenerator](https://github.com/n-ce/RandomNumberGenerator) ✅
