@@ -1,11 +1,11 @@
 window.onload = (event) => {
   setInterval(function(){
-  var R = Number(Math.floor(Math.random()*255)).toString(16);
-  var G = Number(Math.floor(Math.random()*255)).toString(16);
-  var B = Number(Math.floor(Math.random()*255)).toString(16);
-  document.querySelector('div').style.backgroundColor= document.body.style.backgroundColor="#"+R+G+B;
-  document.querySelector("meta[name=theme-color]").setAttribute("content","#"+R+G+B);
+    var H = "0123456789ABCDEF";
+    var C = '#';
+    for (var i = 0; i < 6; i++)
+    C += H[(Math.floor(Math.random()*16))];
+    document.body.style.backgroundColor=C;
+    document.querySelector("meta[name=theme-color]").setAttribute("content",C);
   }, 1000);
 }
-function fullscreen()
-{document.documentElement.requestFullscreen();}
+document.body.onclick=function(){document.documentElement.requestFullscreen()}

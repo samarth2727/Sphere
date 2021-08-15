@@ -19,5 +19,5 @@ div{
     rgba(255, 255, 255, .7),
     rgba(0, 0, 0, 0));
 }
-body,div{transition: background-color 250ms ease-in-out;
+body,div{transition: background 250ms ease-in-out;
 }
